@@ -1,0 +1,11 @@
+.col1 img {
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
