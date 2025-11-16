@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .col1 img {
     float: left;
     margin-right: 15px;
@@ -8,4 +9,31 @@ footer {
     background-color: lightgray;
     padding: 10px;
     text-align: center;
+=======
+main {
+    width: 75vw;
+    margin: 1rem auto;
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+}
+
+p {
+    text-align: justify;
+}
+
+.col1 img {
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid rgba(0 0 0 / .3);
+    box-shadow: 0 0 30px #777;
+}
+
+footer {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    /* Remove the comment below and observe the results. */
+
+    /* clear: both; */
+>>>>>>> 8274920b07289065b11ec39033bcf7e29063ad48
 }
