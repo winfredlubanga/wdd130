@@ -20,12 +20,14 @@ nav a {
 
 /* Main Section */
 main {
-    max-width: 800px;
+    max-width: 840px;
+    /* required by assignment */
     margin: 0 auto;
 }
 
 main img {
-    width: 200px;
+    width: 150px;
+    /* required */
     height: auto;
     border: 2px solid #ccc;
     padding: 5px;
@@ -40,28 +42,42 @@ h1 {
 /* Paragraphs */
 p {
     padding: 0;
+    /* required */
 }
 
 /* Aside Section */
 aside {
-    width: 300px;
-    margin: 1em;
-    border: 1px solid #ccc;
-    padding: 1em;
-    background-color: #f2f2f2;
+    width: 20rem;
+    /* required */
+    margin: 1rem;
+    /* required */
+    border: 1px solid rgb(0 0 0 / 0.2);
+    /* required */
+    padding: 1rem;
+    /* required */
+    background-color: #eee;
+    /* required */
     color: #333;
+    /* required */
+    text-align: center;
+    /* required */
 }
 
 aside img {
     width: 200px;
+    /* required */
     height: auto;
+    /* required */
 }
 
 /* Footer */
 footer {
-    margin-top: 20px;
-    border-top: 2px solid #003366;
+    margin-top: 15px;
+    /* required */
+    border-top: 1px solid #000;
+    /* required */
     text-align: center;
+    /* required */
     padding: 1em;
     background-color: #003366;
     color: white;
