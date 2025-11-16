@@ -151,53 +151,47 @@ footer p {
 
 /* === STEP 5: Style the Hero Section === */
 
-/* Make the hero container a positioned element */
+/* HERO SECTION — CLEANED AND CORRECT */
 .hero {
     position: relative;
-    /* allows absolute positioning of children */
 }
 
-/* Make sure the hero image fills the container */
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    /* maintain aspect ratio */
 }
 
-/* Style the hero heading (appears on top of the image) */
 .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
-    /* slightly transparent background */
     background-color: var(--accent1-color);
-    color: #ffffff;
-    /* white text for strong contrast */
+    color: white;
+    opacity: 0.8;
     font-family: var(--heading-font);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Style the article within the hero */
 .hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
+    display: flex;
+    gap: 15px;
     background-color: rgba(0, 0, 0, 0.5);
-    /* transparent overlay */
-    color: #ffffff;
+    color: white;
     padding: 20px;
     border-radius: 8px;
+    align-items: center;
 }
 
-/* Style only the image inside the hero article */
 .hero article img {
-    float: right;
     width: 125px;
-    margin: 0 0 10px 10px;
+    float: right;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
