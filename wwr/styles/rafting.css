@@ -207,3 +207,19 @@ footer p {
     width: 250px;
     border-radius: 6px;
 }
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-gallery figure {
+    width: 19%;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    border-radius: 6px;
+}
