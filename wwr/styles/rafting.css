@@ -34,16 +34,11 @@ body {
 
 /* Limit width and center layout */
 header,
+main,
 footer {
     width: 840px;
     margin: 0 auto;
 }
-
-/* Let the hero go full width */
-main {
-    width: 100%;
-}
-
 
 /* Header styling */
 header {
