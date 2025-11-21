@@ -106,12 +106,10 @@ h2 {
 }
 
 /* Base content spacing */
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 /* Section styling */
