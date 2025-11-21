@@ -45,9 +45,11 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 20px;
-    display: flex;
+
+    display: grid;
+    grid-template-columns: auto 1fr; /* logo | nav */
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 header img {
