@@ -124,8 +124,11 @@ section {
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    text-align: center;
     padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer p {
