@@ -195,3 +195,15 @@ footer p {
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.history-layout {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history img {
+    width: 250px;
+    border-radius: 6px;
+}
