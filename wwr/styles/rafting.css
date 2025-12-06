@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    position: absolute;
+    position: static;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -100,6 +100,7 @@ nav a:hover {
     left: 20px;
     right: 20px;
     display: flex;
+    flex-direction: column;
     gap: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -114,6 +115,21 @@ nav a:hover {
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.hero-msg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* vertically align them */
+}
+
+.hero-msg img {
+    width: 150px;
+    /* adjust size */
+    border-radius: 8px;
+}
+
+
 
 /* Headings */
 h1,
